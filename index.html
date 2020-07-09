@@ -2,69 +2,84 @@
 <html>
     <head>
         <title>TravelPerk</title>
+        <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
         <header>
 
             <div class="logo">
-                <img src="./figures/header/logo.png">
+                <img src="./figures/logo.png">
             </div>
-            <div class="header-left">
-                <h1>This here is a basic header with logos</h1>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur aure adipiscing elit. 
-                    Aenean rutrum ac risus eu posuere. Integer malesuada leo sit amet commodo in.
-                </p>
-                <button id="get-started">Get started</button>
-                <button id="request-demo">Request demo</button>
-            </div>
-            <figure class="header-right">
-                <img src="./figures/header-right.png">
-            </figure>
-            <p>As used by</p>
-            <div class="header-logos">
-                <figure><img src="./figures/customers/revolut.png"></figure>
-                <figure><img src="./figures/customers/transferwise.png"></figure>
-                <figure><img src="./figures/customers/hotjar.png"></figure>
-                <figure><img src="./figures/customers/farfetch.png"></figure>
-                <figure><img src="./figures/customers/adyen.png"></figure>
-                <figure><img src="./figures/customers/sumup.png"></figure>
-                <figure><img src="./figures/customers/monzo.png"></figure>
-                <figure><img src="./figures/customers/outfittery.png"></figure>
-            </div>
+            <article>
+
+                <div class="flex-container">
+                    <div class="header-left">
+                        <h1>This here is a basic header with logos</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur aure adipiscing elit. 
+                            Aenean rutrum ac risus eu posuere. Integer malesuada leo sit amet commodo in.
+                        </p>
+                        <div class="buttons">
+                            <button class="get-started">Get started</button>
+                            <button class="request-demo">Request demo</button>
+                        </div>
+                    </div>
+                    <figure class="header-right">
+                        <img src="./figures/header-right.png">
+                    </figure>
+                </div>
+                <div class="header-logos">
+                    <small>As used by</small>
+                    <div class="header-logo-list">
+                        <figure><img src="./figures/customers/header/revolut.png"></figure>
+                        <figure><img src="./figures/customers/header/transferwise.png"></figure>
+                        <figure><img src="./figures/customers/header/hotjar.png"></figure>
+                        <figure><img src="./figures/customers/header/farfetch.png"></figure>
+                        <figure><img src="./figures/customers/adyen.png"></figure>
+                        <figure><img src="./figures/customers/header/sumup.png"></figure>
+                        <figure><img src="./figures/customers/header/monzo.png"></figure>
+                        <figure><img src="./figures/customers/header/outfittery.png"></figure>
+                    </div>
+                </div>
+
+            </article>
 
         </header>
-        <section>
+        <section class="section-2">
 
             <h1>What makes TravelPerk so perky?</h1>
-            <figure class="section-1-left">
-                <img src="./figures/header-right.png">
-            </figure>
-            <div class="section-1-right">
-                <ul>
-                    <li>7-star customer support</li>
-                    <li>One consolidated monthly invoice</li>
-                    <ul>
+            <div class="flex-container">
+                <figure class="section-1-left">
+                    <img src="./figures/header-right.png">
+                </figure>
+                <div class="section-1-right">
+                    <ol>
                         <li>7-star customer support</li>
-                        <li>One consolidated invoice</li>
+                        <li>One consolidated monthly invoice
+                            <ol>
+                                <li>7-star customer support</li>
+                                <li>One consolidated invoice</li>
+                                <li>Instant overview of all travel data</li>
+                                <li>Track travelers' whereabouts</li>
+                            </ol>
+                        </li>
                         <li>Instant overview of all travel data</li>
                         <li>Track travelers' whereabouts</li>
-                    </ul>
-                    <li>Instant overview of all travel data</li>
-                    <li>Track travelers' whereabouts</li>
-                </ul>
+                    </ol>
+                </div>
             </div>
 
         </section>
-        <section>
+        <section class="flex-container section-3">
 
             <article>
                 <figure>
                     <img src="./figures/mandy.png">
                 </figure>
                 <p>
-                    “I realized this really could improve my travel management. 
-                    This is actually the tool that can make everything much more scalable.”
+                    &#8221;I realized this really could improve my travel management. 
+                    This is actually the tool that can make everything much more scalable.&#8221;
                 </p>
                 <p>Mandy Mill</p>
                 <p>Team Lead at Get Your Guide</p>
@@ -74,44 +89,46 @@
                     <img src="./figures/olivier.png">
                 </figure>
                 <p>
-                    “Before TravelPerk, we were booking trips in a very old school way. 
+                    &#8221;Before TravelPerk, we were booking trips in a very old school way. 
                     We were booking flights and hotels on consumer websites, and it was 
-                    a nightmare to keep track of everything.”
+                    a nightmare to keep track of everything.&#8221;
                 </p>
                 <p>Olivier Billon</p>
                 <p>CEO at Ykone</p>
             </article>
 
         </section>
-        <section class="grid">
-            <article>Join the 1000s of companies that travel with us</article>
-            <figure><img src="./figures/customers/netcentric.png"></figure>
-            <figure><img src="./figures/customers/sumup.png"></figure>
-            <figure><img src="./figures/customers/typeform.png"></figure>
-            <figure><img src="./figures/customers/outfittery.png"></figure>
-            <figure><img src="./figures/customers/workable.png"></figure>
-            <figure><img src="./figures/customers/expensify.png"></figure>
-            <figure><img src="./figures/customers/picnic.png"></figure>
-            <figure><img src="./figures/customers/getyourguide.png"></figure>
-            <figure><img src="./figures/customers/transferwise.png"></figure>
-            <figure><img src="./figures/customers/airbus.png"></figure>
-            <figure><img src="./figures/customers/hotjar.png"></figure>
-            <figure><img src="./figures/customers/farfetch.png"></figure>
-            <figure><img src="./figures/customers/gocardless.png"></figure>
-            <figure><img src="./figures/customers/mytaxi.png"></figure>
-            <figure><img src="./figures/customers/volotea.png"></figure>
-            <figure><img src="./figures/customers/bandw.png"></figure>
-            <figure><img src="./figures/customers/cityjet.png"></figure>
-            <figure><img src="./figures/customers/monzo.png"></figure>
-            <figure><img src="./figures/customers/revolut.png"></figure>
-            <figure><img src="./figures/customers/dmi.png"></figure>
+        <section class="grid section-4">
+            <div class="grid-container">
+                <figure class="grid-box">Join the 1000s of companies that travel with us</figure>
+                <figure><img src="./figures/customers/netcentric.png"></figure>
+                <figure><img src="./figures/customers/sumup.png"></figure>
+                <figure><img src="./figures/customers/typeform.png"></figure>
+                <figure><img src="./figures/customers/outfittery.png"></figure>
+                <figure><img src="./figures/customers/workable.png"></figure>
+                <figure><img src="./figures/customers/expensify.png"></figure>
+                <figure><img src="./figures/customers/picnic.png"></figure>
+                <figure><img class="smaller" src="./figures/customers/getyourguide.png"></figure>
+                <figure><img src="./figures/customers/transferwise.png"></figure>
+                <figure><img src="./figures/customers/airbus.png"></figure>
+                <figure><img src="./figures/customers/hotjar.png"></figure>
+                <figure><img src="./figures/customers/farfetch.png"></figure>
+                <figure><img src="./figures/customers/gocardless.png"></figure>
+                <figure><img src="./figures/customers/mytaxi.png"></figure>
+                <figure><img src="./figures/customers/volotea.png"></figure>
+                <figure><img src="./figures/customers/bandw.png"></figure>
+                <figure><img src="./figures/customers/cityjet.png"></figure>
+                <figure><img src="./figures/customers/monzo.png"></figure>
+                <figure><img src="./figures/customers/revolut.png"></figure>
+                <figure><img src="./figures/customers/dmi.png"></figure>
+            </div>
         </section>
-        <section>
+        <section class="section-5">
             <figure>
                 <img src="./figures/bottom.png">
             </figure>
         </section>
-        <footer>
+        <footer class="flex-container">
 
             <small>
                 <img src="./figures/logo-footer.png">
