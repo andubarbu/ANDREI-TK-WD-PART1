@@ -6,6 +6,7 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    font-family: Graphik-Light;
 }
 
 header{
@@ -30,7 +31,6 @@ header{
         .header-left{
             padding-right: 3rem;
             h1{
-                font-family: Graphik;
                 font-style: normal;
                 font-weight: 300;
                 font-size: 52px;
@@ -41,7 +41,6 @@ header{
     
             }
             p{
-                font-family: Graphik;
                 font-style: normal;
                 font-weight: 100;
                 font-size: 21px;
@@ -57,7 +56,6 @@ header{
                 text-decoration: none;
                 width: 180px;
                 border-radius: 4px;
-                font-family: Graphik;
                 font-style: normal;
                 font-weight: 0;
                 font-size: 14px;
@@ -89,7 +87,6 @@ header{
                 }
             }
             small{
-                font-family: Graphik;
                 font-style: normal;
                 font-weight: 100;
                 font-size: 12px;
@@ -102,6 +99,7 @@ header{
 .flex-container{
     display: grid;
     grid-template-columns: 50% 50%;
+    align-content: center;
 }
 
 ol{
@@ -121,14 +119,49 @@ ol{
 
  .section-2{
      background-color: $secondary-grey;
+     padding: 5rem;
      h1{
-         color: $primary-color;
+        color: $primary-color;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 45px;
+        line-height: 80px;
+        letter-spacing: 0.4px;
+        margin-top: 0;
+        margin-bottom: 1.5rem;
+     }
+     .section-1-right{
+         margin-left: 3rem;
+        ol{
+            font-family: Graphik;
+            font-size: 22px;
+            line-height: 52px;
+            height: 100%;
+            align-self: start;
+        }
+    }
+     figure{
+        margin: 0;
+        align-self: center;
+        img{
+            width: 92.5%;
+        }
      }
  }
 
  .section-3{
     background-color: #D39101;
     color: white;
+    figure{
+        margin: 0;
+    }
+    article{
+        align-self: center;
+        justify-self: center;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
     
  }
 

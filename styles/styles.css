@@ -8,6 +8,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   margin: 0 auto;
+  font-family: Graphik-Light;
 }
 
 header {
@@ -40,7 +41,6 @@ header article .header-left {
 }
 
 header article .header-left h1 {
-  font-family: Graphik;
   font-style: normal;
   font-weight: 300;
   font-size: 52px;
@@ -51,7 +51,6 @@ header article .header-left h1 {
 }
 
 header article .header-left p {
-  font-family: Graphik;
   font-style: normal;
   font-weight: 100;
   font-size: 21px;
@@ -67,7 +66,6 @@ header article .header-left button {
   text-decoration: none;
   width: 180px;
   border-radius: 4px;
-  font-family: Graphik;
   font-style: normal;
   font-weight: 0;
   font-size: 14px;
@@ -113,7 +111,6 @@ header article .header-logos .header-logo-list figure img {
 }
 
 header article .header-logos small {
-  font-family: Graphik;
   font-style: normal;
   font-weight: 100;
   font-size: 12px;
@@ -125,6 +122,8 @@ header article .header-logos small {
   display: grid;
   -ms-grid-columns: 50% 50%;
       grid-template-columns: 50% 50%;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
 ol {
@@ -146,15 +145,66 @@ ol li:before {
 
 .section-2 {
   background-color: #EFF2F7;
+  padding: 5rem;
 }
 
 .section-2 h1 {
   color: #003097;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 45px;
+  line-height: 80px;
+  letter-spacing: 0.4px;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+.section-2 .section-1-right {
+  margin-left: 3rem;
+}
+
+.section-2 .section-1-right ol {
+  font-family: Graphik;
+  font-size: 22px;
+  line-height: 52px;
+  height: 100%;
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+}
+
+.section-2 figure {
+  margin: 0;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.section-2 figure img {
+  width: 92.5%;
 }
 
 .section-3 {
   background-color: #D39101;
   color: white;
+}
+
+.section-3 figure {
+  margin: 0;
+}
+
+.section-3 article {
+  -ms-flex-item-align: center;
+      align-self: center;
+  justify-self: center;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .section-4 {
