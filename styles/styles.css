@@ -187,17 +187,22 @@ ol li:before {
 .section-3 {
   background-color: #D39101;
   color: white;
+  padding: 6.5rem 5rem 5rem 5rem;
 }
 
 .section-3 figure {
   margin: 0;
 }
 
+.section-3 figure img {
+  width: 100%;
+}
+
 .section-3 article {
   -ms-flex-item-align: center;
       align-self: center;
   justify-self: center;
-  height: 100%;
+  width: 82.5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -205,10 +210,30 @@ ol li:before {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  font-size: 23px;
+  line-height: 36px;
+  letter-spacing: -0.3px;
+  height: 100%;
+}
+
+.section-3 article .name-title {
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.section-3 .mandy {
+  -ms-grid-column-align: start;
+      justify-self: start;
+}
+
+.section-3 .olivier {
+  -ms-grid-column-align: end;
+      justify-self: end;
 }
 
 .section-4 {
   background-color: #EFF2F7;
+  padding: 5rem;
 }
 
 .section-4 .grid-container {
@@ -216,13 +241,17 @@ ol li:before {
   display: grid;
   -ms-grid-columns: (10rem)[auto-fill];
       grid-template-columns: repeat(auto-fill, 10rem);
-  gap: 1.2rem;
+  gap: 1.5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
 }
 
 .section-4 .grid-container figure {
   margin: 0;
   background-color: white;
-  width: 10rem;
+  width: 10.5rem;
   height: 4.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -233,7 +262,7 @@ ol li:before {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 1px solid lightgrey;
+  border: 0.5px solid lightgray;
 }
 
 .section-4 .grid-container figure .smaller {
@@ -246,8 +275,8 @@ ol li:before {
   color: white;
   grid-row: span 2;
   grid-column: span 2;
-  width: 21.2rem;
-  height: 10.2rem;
+  width: 22rem;
+  height: 10.75rem;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -256,16 +285,29 @@ ol li:before {
           align-items: center;
 }
 
-.section-5 {
-  background-color: #058C78;
+.section-4 .grid-container .grid-box p {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.1px;
+  padding: 2rem;
 }
 
-.section-5 img {
+.section-5 {
+  background-color: #058C78;
+  padding: 4rem 5rem;
+}
+
+.section-5 figure {
+  margin: 0;
+}
+
+.section-5 figure img {
   max-width: 100%;
   max-height: 100%;
 }
 
 footer {
   background-color: #EFF2F7;
+  padding: 2rem 5rem;
 }
 /*# sourceMappingURL=styles.css.map */
