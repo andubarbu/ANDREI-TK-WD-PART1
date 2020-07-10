@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'Graphik-Light';
+  src: url(./fonts/Graphik-300.woff2) format("woff2"), url(./fonts/Graphik-300.woff) format("woff");
+}
+
+@font-face {
+  font-family: 'Graphik';
+  src: url(./fonts/Graphik-400.woff2) format("woff2"), url(./fonts/Graphik-400.woff) format("woff");
+}
+
 body {
   max-width: 1286px;
   display: -webkit-box;
@@ -12,7 +22,7 @@ body {
   font-family: Graphik-Light;
 }
 
-.flex-container {
+.section-grid {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 50% 50%;
@@ -48,7 +58,7 @@ header article .header {
   padding-right: 3rem;
 }
 
-header article .header .header-right {
+header article .header .header-img {
   -ms-grid-row: 1;
   -ms-grid-row-span: 3;
   grid-row: 1 / span 3;
@@ -57,7 +67,7 @@ header article .header .header-right {
   grid-column: 2 / 3;
 }
 
-header article .header .header-right img {
+header article .header .header-img img {
   margin-left: 2rem;
   width: 120%;
   margin: 0;
@@ -104,7 +114,6 @@ header article .header button {
   width: 180px;
   border-radius: 4px;
   font-style: normal;
-  font-weight: 0;
   font-size: 14px;
   -ms-grid-row: 3;
   -ms-grid-row-span: 1;
@@ -252,12 +261,12 @@ header article .header-logos small {
   line-height: 25px;
 }
 
-.section-3 .mandy {
+.section-3 .section-3-left {
   -ms-grid-column-align: start;
       justify-self: start;
 }
 
-.section-3 .olivier {
+.section-3 .section-3-right {
   -ms-grid-column-align: end;
       justify-self: end;
 }
@@ -387,7 +396,7 @@ footer nav a {
   .section-2, .section-3, .section-4, .section-5, footer, header > article {
     padding: 35px;
   }
-  .flex-container {
+  .section-grid {
     -ms-grid-columns: 100%;
         grid-template-columns: 100%;
     padding: 0;
@@ -410,7 +419,7 @@ footer nav a {
     line-height: 58px;
     font-size: 50px;
   }
-  header article .header .header-right {
+  header article .header .header-img {
     -ms-grid-row: 2;
     -ms-grid-row-span: 1;
     grid-row: 2/3;
@@ -420,12 +429,12 @@ footer nav a {
     margin: 0;
     padding: 0;
   }
-  header article .header .header-right figure {
+  header article .header .header-img figure {
     margin: 0;
     padding: 0;
     max-width: 100%;
   }
-  header article .header .header-right img {
+  header article .header .header-img img {
     width: 100%;
     margin: 0;
     margin-bottom: 1rem;
