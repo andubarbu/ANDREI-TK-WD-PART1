@@ -11,11 +11,15 @@
             <div class="logo">
                 <img src="./figures/logo.png">
             </div>
+
             <article>
 
-                <div class="flex-container">
-                    <div class="header-left">
+                <div class="header-container">
+                    <div class="header">
                         <h1>This here is a basic header with logos</h1>
+                        <figure class="header-right">
+                            <img src="./figures/header-right.png">
+                        </figure>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur aure adipiscing elit. 
                             Aenean rutrum ac risus eu posuere. Integer malesuada leo sit amet commodo in.
@@ -25,9 +29,6 @@
                             <button class="request-demo">Request demo</button>
                         </div>
                     </div>
-                    <figure class="header-right">
-                        <img src="./figures/header-right.png">
-                    </figure>
                 </div>
                 <div class="header-logos">
                     <small>As used by</small>
@@ -50,10 +51,10 @@
 
             <h1>What makes TravelPerk so perky?</h1>
             <div class="flex-container">
-                <figure class="section-1-left">
+                <figure class="section-2-left">
                     <img src="./figures/header-right.png">
                 </figure>
-                <div class="section-1-right">
+                <div class="section-2-right">
                     <ol>
                         <li>7-star customer support</li>
                         <li>One consolidated monthly invoice
@@ -77,7 +78,7 @@
                 <figure>
                     <img src="./figures/mandy.png">
                 </figure>
-                <p>
+                <p class="text-body">
                     &#8221;I realized this really could improve my travel management. 
                     This is actually the tool that can make everything much more scalable.&#8221;
                 </p>
@@ -87,7 +88,7 @@
                 <figure>
                     <img src="./figures/olivier.png">
                 </figure>
-                <p>
+                <p class="text-body">
                     &#8221;Before TravelPerk, we were booking trips in a very old school way. 
                     We were booking flights and hotels on consumer websites, and it was 
                     a nightmare to keep track of everything.&#8221;
@@ -98,27 +99,27 @@
         </section>
         <section class="grid section-4">
             <div class="grid-container">
-                <figure class="grid-box"><p>Join the 1000s of companies that travel with us</p></figure>
-                <figure><img src="./figures/customers/netcentric.png"></figure>
-                <figure><img src="./figures/customers/sumup.png"></figure>
-                <figure><img src="./figures/customers/typeform.png"></figure>
-                <figure><img src="./figures/customers/outfittery.png"></figure>
-                <figure><img src="./figures/customers/workable.png"></figure>
-                <figure><img src="./figures/customers/expensify.png"></figure>
-                <figure><img src="./figures/customers/picnic.png"></figure>
-                <figure><img class="smaller" src="./figures/customers/getyourguide.png"></figure>
-                <figure><img src="./figures/customers/transferwise.png"></figure>
-                <figure><img src="./figures/customers/airbus.png"></figure>
-                <figure><img src="./figures/customers/hotjar.png"></figure>
-                <figure><img src="./figures/customers/farfetch.png"></figure>
-                <figure><img src="./figures/customers/gocardless.png"></figure>
-                <figure><img src="./figures/customers/mytaxi.png"></figure>
-                <figure><img src="./figures/customers/volotea.png"></figure>
-                <figure><img src="./figures/customers/bandw.png"></figure>
-                <figure><img src="./figures/customers/cityjet.png"></figure>
-                <figure><img src="./figures/customers/monzo.png"></figure>
-                <figure><img src="./figures/customers/revolut.png"></figure>
-                <figure><img src="./figures/customers/dmi.png"></figure>
+                <div class="grid-box"><p>Join the 1000s of companies that travel with us</p></div>
+                <div class="grid-item hidden"><img src="./figures/customers/netcentric.png"></div>
+                <div class="grid-item"><img src="./figures/customers/sumup.png"></div>
+                <div class="grid-item"><img src="./figures/customers/typeform.png"></div>
+                <div class="grid-item hidden"><img src="./figures/customers/outfittery.png"></div>
+                <div class="grid-item hidden"><img src="./figures/customers/workable.png"></div>
+                <div class="grid-item hidden"><img src="./figures/customers/expensify.png"></div>
+                <div class="grid-item"><img src="./figures/customers/picnic.png"></div>
+                <div class="grid-item"><img class="smaller" src="./figures/customers/getyourguide.png"></div>
+                <div class="grid-item hidden"><img src="./figures/customers/transferwise.png"></div>
+                <div class="grid-item hidden"><img src="./figures/customers/airbus.png"></div>
+                <div class="grid-item hidden"><img src="./figures/customers/hotjar.png"></div>
+                <div class="grid-item hidden"><img src="./figures/customers/farfetch.png"></div>
+                <div class="grid-item hidden"><img src="./figures/customers/gocardless.png"></div>
+                <div class="grid-item hidden"><img src="./figures/customers/mytaxi.png"></div>
+                <div class="grid-item hidden"><img src="./figures/customers/volotea.png"></div>
+                <div class="grid-item hidden"><img src="./figures/customers/bandw.png"></div>
+                <div class="grid-item hidden"><img src="./figures/customers/cityjet.png"></div>
+                <div class="grid-item hidden"><img src="./figures/customers/monzo.png"></div>
+                <div class="grid-item hidden"><img src="./figures/customers/revolut.png"></div>
+                <div class="grid-item hidden"><img src="./figures/customers/dmi.png"></div>
             </div>
         </section>
         <section class="section-5">
@@ -126,17 +127,17 @@
                 <img src="./figures/bottom.png">
             </figure>
         </section>
-        <footer class="flex-container">
+        <footer>
 
             <small>
                 <img src="./figures/logo-footer.png">
-                Copyright &#169; 2020 TravelPerk. All rights reserved.
+                <p>Copyright &#169; 2020 TravelPerk. All rights reserved.</p>
             </small>
             <nav>
 
                 <a href="#">Terms of use</a>
-                <a href="#">Privacy policy</a>
-                <a href="#">Cookie policy</a>
+                <a class="spaced" href="#">Privacy policy</a>
+                <a class="spaced" href="#">Cookie policy</a>
 
             </nav>
 
