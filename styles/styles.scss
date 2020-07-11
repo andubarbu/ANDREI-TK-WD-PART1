@@ -33,6 +33,8 @@ body{
     justify-content: center;
 }
 
+// IMPORTS
+
 @import "header";
 @import "section-2";
 @import "section-3";
@@ -195,7 +197,7 @@ body{
         flex-direction: column-reverse;
         align-items: flex-start;
         font-size: 18px;
-        small{
+        .footer-text{
             flex-direction: column-reverse;
             text-align: left;
             align-items: flex-start;
@@ -208,7 +210,6 @@ body{
             }
         }
         nav a{
-            font-size: 14px;
             margin-left: 0;
         }
         .spaced{

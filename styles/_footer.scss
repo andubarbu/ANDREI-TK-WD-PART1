@@ -8,12 +8,14 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    small{
+    .footer-text{
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: row;
         p{
             margin-left: 15px;
+            font-size: 14px;
         }
     }
     nav a{

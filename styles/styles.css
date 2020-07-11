@@ -362,7 +362,7 @@ footer {
           align-items: center;
 }
 
-footer small {
+footer .footer-text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -372,10 +372,15 @@ footer small {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
-footer small p {
+footer .footer-text p {
   margin-left: 15px;
+  font-size: 14px;
 }
 
 footer nav a {
@@ -550,7 +555,7 @@ footer nav a {
             align-items: flex-start;
     font-size: 18px;
   }
-  footer small {
+  footer .footer-text {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
@@ -560,15 +565,14 @@ footer nav a {
         -ms-flex-align: start;
             align-items: flex-start;
   }
-  footer small p {
+  footer .footer-text p {
     margin-top: 10px;
     margin-left: 0;
   }
-  footer small img {
+  footer .footer-text img {
     margin-top: 15px;
   }
   footer nav a {
-    font-size: 14px;
     margin-left: 0;
   }
   footer .spaced {
